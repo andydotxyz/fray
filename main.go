@@ -11,6 +11,8 @@ func main() {
 	w := a.NewWindow("Fray")
 	w.SetPadded(false)
 
+	fynedesk.SetInstance(&mockDesk{})
+
 	m := systray.NewTray()
 	w.SetContent(m.(fynedesk.StatusAreaModule).StatusAreaWidget())
 	w.ShowAndRun()
