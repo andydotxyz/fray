@@ -6,3 +6,5 @@ It makes use of the [FyneDesk](https://github.com/fyne-io/fynedesk) system tray 
 It does not support legacy system tray apps, only those updated to the more recent AppIndicator DBus spec.
 
 This project is in early development and may have issues, particularly regarding menus.
+
+![](img/screenshot.png)
